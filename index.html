@@ -340,6 +340,36 @@ select:focus-visible,input[type=number]:focus-visible,textarea:focus-visible{bor
 @media(pointer:coarse){.ib,#stb,.ig{min-height:40px}.chip button{min-width:38px;min-height:38px}.faq summary{min-height:44px}.uh-hw .st{min-height:44px}}
 @media(prefers-contrast:more){:root:root:root{--bd:color-mix(in srgb,var(--tx) 50%,transparent)}.uh-mq li,.sub,.n{color:var(--tx)}}
 @media(prefers-reduced-motion:reduce){.faq details[open] p{animation:none}.uh-skip{transition:none}html.uh-js .rv{transition:none}}
+</style><style id="intro-sr">
+@property --ang{syntax:'<angle>';inherits:false;initial-value:0deg}
+@property --cm{syntax:'<angle>';inherits:false;initial-value:0deg}
+#intro{overflow:hidden}
+#intro .orb{width:min(250px,30vh,62vw);height:min(250px,30vh,62vw)}
+#intro h1#nm{position:absolute;width:1px;height:1px;min-height:0;margin:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.bgfx{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.bgfx .ab{position:absolute;width:60vmax;height:60vmax;border-radius:50%;will-change:transform;animation:abf 14s ease-in-out infinite alternate}
+.bgfx .ab1{left:-22vmax;top:-26vmax;background:radial-gradient(closest-side,color-mix(in srgb,var(--t) 40%,transparent),transparent)}
+.bgfx .ab2{right:-26vmax;top:8vmax;background:radial-gradient(closest-side,color-mix(in srgb,var(--ac) 32%,transparent),transparent);animation-duration:18s;animation-delay:-6s}
+.bgfx .ab3{left:12vmax;bottom:-38vmax;background:radial-gradient(closest-side,color-mix(in srgb,var(--a2) 26%,transparent),transparent);animation-duration:16s;animation-delay:-10s}
+@keyframes abf{to{transform:translate3d(9vmax,6vmax,0) scale(1.18)}}
+.bgfx .pt{position:absolute;bottom:-12px;left:var(--x);width:var(--s);height:var(--s);border-radius:50%;background:var(--c);box-shadow:0 0 10px var(--c);opacity:0;animation:ptr var(--d) linear var(--w) infinite}
+@keyframes ptr{0%{opacity:0;transform:translate3d(0,0,0)}10%{opacity:.85}100%{opacity:0;transform:translate3d(var(--dx),-112vh,0)}}
+
+/* ---- title text animation (replaces the search bar) ---- */
+#sbx{display:flex;justify-content:center;margin:4px 0 0}
+.tt{position:relative;display:inline-block;max-width:94vw;white-space:pre;font:600 clamp(26px,7.4vw,64px)/1.25 var(--f-d,Georgia,"Times New Roman",serif);letter-spacing:-.01em}
+.tt-g{color:var(--tx);opacity:.1}
+.tt-o{position:absolute;left:0;top:0;white-space:pre;color:var(--tx)}
+.tt-ty .c{animation:ttIn .35s cubic-bezier(.2,.8,.2,1) backwards}
+@keyframes ttIn{from{opacity:0;filter:blur(8px)}}
+.tt-cr{display:inline-block;width:.07em;height:.95em;margin-left:.06em;vertical-align:-.12em;border-radius:2px;background:var(--a2);box-shadow:0 0 14px var(--a2);animation:ttBl 1s steps(1) infinite}
+@keyframes ttBl{50%{opacity:0}}
+.tt.sheen .tt-o{background:linear-gradient(100deg,var(--tx) 40%,var(--a2) 49%,var(--ac) 53%,var(--tx) 62%) 0 0/300% 100% no-repeat;-webkit-background-clip:text;background-clip:text;color:transparent;animation:ttSh 2.6s linear infinite}
+@keyframes ttSh{to{background-position:100% 0}}
+@media(prefers-reduced-motion:reduce){.tt-ty .c,.tt-cr,.tt.sheen .tt-o{animation:none!important}}
+#intro.wl #sbx{opacity:0!important;visibility:hidden;transition:opacity .6s,visibility .6s}
+@media(max-width:480px){.sq{height:66px;gap:12px;padding:0 16px}.sq-go{display:none}.sq-ic,.sq-ic svg{width:34px;height:34px}}
+@media(prefers-reduced-motion:reduce){.bgfx .ab,.bgfx .pt,.sq,.sq::before,.sq::after,.sq-ic svg,.sq-ic i,.sq-cr,.sq-ph,.ch,.sq-ty,.sq-bst b{animation:none!important}.sq{opacity:1;transform:none}.sq-bst{display:none}}
 </style><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"></head><body><noscript><p style="padding:24px;font:16px sans-serif">OmniConvert Studio needs JavaScript. Please enable it and reload.</p></noscript>
 <div id="intro"><div class="orb"><i class="r r1"></i><i class="r r2"></i><i class="r r3"></i><svg class="ring" viewBox="0 0 120 120" aria-hidden="true"><defs><linearGradient id="gr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--ac)"/><stop offset="1" style="stop-color:var(--a2)"/></linearGradient></defs><circle class="bg" cx="60" cy="60" r="52"/><circle class="fg" cx="60" cy="60" r="52"/></svg><span class="core"></span><b id="pn">0%</b><div id="fmts"></div></div><h1 id="nm" aria-label="OmniConvert Studio"></h1><p>Developed by <b>Shanmuk</b></p><div id="stg"></div><div id="pc">Starting…</div><div id="wl"><h2>Welcome to the website</h2><p class="by">Developed by <b>Shanmuk</b></p><blockquote id="qt"></blockquote></div><button id="snh">🔊 Tap here to turn on sound</button></div>
 <header><div class="mk"><svg class="lg" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="lgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff6a93"/><stop offset="1" stop-color="#ffb454"/></linearGradient></defs><rect width="48" height="48" rx="14" fill="url(#lgg)"/><g fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"><path d="M13.7 20.2A11 11 0 0 1 34 19.3"/><path d="M34.3 27.8A11 11 0 0 1 14 28.7"/></g><g fill="#fff"><path d="M35.5 22.5L37.2 17.8L30.8 20.8Z"/><path d="M12.5 25.5L10.8 30.2L17.2 27.2Z"/></g></svg></div><b>OmniConvert Studio</b><span>Developed by Shanmuk</span><button id="mu" class="ib" aria-label="Sound">🔊</button><button id="bg" class="ib" aria-label="Change background music">🎵 <em class="t">Chill</em></button><button id="stb" aria-label="Colour and animation options">🎨 <em class="t">Style</em></button><a class="ig igl" href="https://www.instagram.com/just_call_me_shanmuk__" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg><em class="t"> Instagram</em></a><a class="ig lil" href="https://www.linkedin.com/in/munaganuri-shanmukha-sai-undefined-760150428" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4.5 3A2 2 0 1 0 4.5 7 2 2 0 0 0 4.5 3zM3 9h3v12H3zM9 9h3v1.7c.6-1 1.8-2 3.6-2 3.2 0 3.9 2.1 3.9 4.8V21h-3v-6.7c0-1.6 0-3-1.9-3s-2.2 1.4-2.2 2.9V21H9z"/></svg><em class="t"> LinkedIn</em></a></header>
@@ -351,7 +381,7 @@ select:focus-visible,input[type=number]:focus-visible,textarea:focus-visible{bor
 <section class="card"><h2>Your files</h2><p class="sub">Finished files appear here</p><div id="res"><div class="empty">Nothing yet. Add files and press Start.</div></div></section></div>
 <section class="feat"><div><b>🔒 100% private</b><p>Files never leave your phone or computer.</p></div><div><b>⚡ Fast and free</b><p>No sign-up, no limits, no waiting in queues.</p></div><div><b>🧰 Five tools</b><p>Convert, make PDFs, enhance to 8K, and set file sizes.</p></div><div><b>📱 Works everywhere</b><p>Phone, tablet and desktop with the same experience.</p></div></section>
 <section class="faq"><h2>Questions</h2><details><summary>Are my photos uploaded anywhere?</summary><p>No. Everything is processed inside your browser, so your files stay on your device.</p></details><details><summary>Which formats can I open?</summary><p>JPG, PNG, WebP, HEIC, TIFF, GIF, SVG, PDF and camera RAW previews.</p></details><details><summary>My file will not open. What should I do?</summary><p>Tap the box and choose the file again, or drag it in or paste it. Very large files may need a smaller target size.</p></details></section></main>
-<footer><div class="soc"><a class="ig igl" href="https://www.instagram.com/just_call_me_shanmuk__" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg> Instagram</a><a class="ig lil" href="https://www.linkedin.com/in/munaganuri-shanmukha-sai-undefined-760150428" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4.5 3A2 2 0 1 0 4.5 7 2 2 0 0 0 4.5 3zM3 9h3v12H3zM9 9h3v1.7c.6-1 1.8-2 3.6-2 3.2 0 3.9 2.1 3.9 4.8V21h-3v-6.7c0-1.6 0-3-1.9-3s-2.2 1.4-2.2 2.9V21H9z"/></svg> LinkedIn</a></div>© OmniConvert Studio · Developed by Shanmuk<br><button id="ex" class="fbb">💬 Leave feedback and close</button></footer>
+<footer><div class="soc"><a class="ig igl" href="https://www.instagram.com/just_call_me_shanmuk__" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg> Instagram</a><a class="ig lil" href="https://www.linkedin.com/in/munaganuri-shanmukha-sai-undefined-760150428" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4.5 3A2 2 0 1 0 4.5 7 2 2 0 0 0 4.5 3zM3 9h3v12H3zM9 9h3v1.7c.6-1 1.8-2 3.6-2 3.2 0 3.9 2.1 3.9 4.8V21h-3v-6.7c0-1.6 0-3-1.9-3s-2.2 1.4-2.2 2.9V21H9z"/></svg> LinkedIn</a></div>© OmniConvert Studio · Developed by Shanmuk<br><button id="ex" class="fbb">💬 Leave feedback and close</button> <button id="rp" class="fbb">▶ Replay intro</button></footer>
 <div id="fb" hidden role="dialog" aria-label="Feedback"><div class="fbc"><div id="fbf"><h2>Before you go…</h2><p class="sub">Tell us what you think. It helps make this website better.</p><div id="stars" role="radiogroup" aria-label="Rating"></div><input id="fbn" maxlength="60" placeholder="Your name (optional)" aria-label="Your name"><textarea id="fbt" maxlength="600" rows="4" placeholder="Write your feedback as you wish…" aria-label="Feedback"></textarea><div class="fbr"><button id="fbs" class="btn">Submit feedback</button><button id="fbx" class="fbb">Not now</button></div></div><div id="fbk" hidden><h2>Thank you! 💛</h2><p class="sub">Your feedback means a lot to Shanmuk.</p><blockquote id="fbq"></blockquote><a class="btn igl" href="https://www.instagram.com/just_call_me_shanmuk__" target="_blank" rel="noopener noreferrer" style="margin-right:8px">💬 Also tell Shanmuk on Instagram</a><button id="fbc" class="btn">Close</button></div></div></div>
 <canvas id="fx" aria-hidden="true"></canvas>
 <div id="sp" hidden role="dialog" aria-label="Style options"><div class="sh"><b>Style</b><button id="sx" aria-label="Close">×</button></div><p class="sl">Colour</p><div id="pls"></div><p class="sl">Animation</p><div id="fxs"></div><label class="sl">Amount <span id="amv">60</span>%<input id="amt" type="range" min="10" max="100" value="60"></label><p class="sl">F1 photo</p><div><button id="f1b" class="f1btn">📷 Use my F1 photo</button><button id="f1r" class="f1btn">Remove</button><label class="ck"><input id="f1f" type="checkbox">Photo faces left</label><input id="f1i" type="file" accept="image/*" hidden><p class="n" style="margin:8px 0 0">Pick a side-view F1 car photo from your device, then choose the F1 race animation. A PNG with a transparent background looks best.</p></div></div>
@@ -703,14 +733,36 @@ dz.ondrop=e=>{e.preventDefault();dz.classList.remove('ov');addFiles(e.dataTransf
 document.addEventListener('input',e=>{if(e.target.id=='q')$('#qv').textContent=e.target.value;if(e.target.id=='sh')$('#shv').textContent=e.target.value});
 $('#go').onclick=async()=>{if(!files.length)return msg('Add at least one file first.');if(tool=='size'&&!($('#kb').value>=5))return msg('Enter a target size of at least 5 KB.');
  $('#go').disabled=true;BUSY=true;fxStart();out.forEach(o=>URL.revokeObjectURL(o.url));out=[];show();await yld();try{await R[tool]();bar(1);msg(out.length?'Done. Your files are ready.':'');if(out.length)sfx.ok()}catch(e){msg('Problem: '+e.message);sfx.err()}BUSY=false;fxStart();$('#go').disabled=false;show()};
-const intro=$('#intro'),t0=Date.now();let tk;
+const intro=$('#intro');let t0=Date.now(),tk;
 const endIntro=()=>{if(DONE)return;DONE=true;try{if(IGN)IGN.gain.setTargetAtTime(0,AC.currentTime,.05)}catch(e){}clearInterval(tk);intro.classList.add('hide');setTimeout(()=>intro.remove(),1000)};
-$('#nm').innerHTML=[...'OmniConvert Studio'].map((c,i)=>`<span style="animation-delay:${.4+i*.09}s">${c==' '?'&nbsp;':c}</span>`).join('');
+$('#nm').textContent='OmniConvert Studio';
+const LD=new Promise(r=>{if(document.readyState==='complete')r();else{addEventListener('load',r,{once:true});setTimeout(r,45000)}});LD.then(()=>{t0=Date.now()});
+{const rp=document.getElementById('rp');if(rp)rp.onclick=()=>location.reload()}
+/* loading circle: fills slowly while the page downloads, then completes */
+let tL=0,p0=0,pv=0;LD.then(()=>{tL=Date.now();p0=pv});
+const PG=()=>{const n=Date.now();pv=tL?p0+(1-p0)*Math.min(1,(n-tL)/9000):.6*(1-Math.exp(-(n-t0)/12000));return pv};
+const FG=document.querySelector('.ring .fg');if(FG){FG.style.animation='none';FG.style.transition='stroke-dashoffset .12s linear'}
+const RF=p=>{if(FG)FG.style.strokeDashoffset=(326.7*(1-p)).toFixed(1)};
+(()=>{const FULL='OmniConvert Studio',rm=matchMedia('(prefers-reduced-motion:reduce)').matches,alive=()=>intro.isConnected;
+const bg=document.createElement('div');bg.className='bgfx';bg.setAttribute('aria-hidden','true');
+let h='<i class="ab ab1"></i><i class="ab ab2"></i><i class="ab ab3"></i>';
+if(!rm){const cs=['var(--ac)','var(--a2)','var(--t)'];for(let i=0;i<22;i++){h+='<i class="pt" style="--x:'+(Math.random()*100).toFixed(1)+'%;--s:'+(2+Math.random()*4).toFixed(1)+'px;--c:'+cs[i%3]+';--d:'+(6+Math.random()*7).toFixed(1)+'s;--w:-'+(Math.random()*10).toFixed(1)+'s;--dx:'+(Math.random()*80-40).toFixed(0)+'px"></i>'}}
+bg.innerHTML=h;intro.prepend(bg);
+const sb=document.createElement('div');sb.id='sbx';sb.setAttribute('aria-hidden','true');
+sb.innerHTML='<div class="tt"><span class="tt-g"></span><span class="tt-o"><span class="tt-ty"></span><i class="tt-cr"></i></span></div>';
+intro.insertBefore(sb,$('#nm'));
+const tt=sb.firstChild,ty=sb.querySelector('.tt-ty');sb.querySelector('.tt-g').textContent=FULL;
+/* while loading: a faint ghost of the name with a blinking cursor; once loaded it types out, then a light sheen runs through it */
+const type=()=>{if(!alive())return;
+ if(rm){ty.textContent=FULL;return}
+ let i=0;const step=()=>{if(!alive())return;if(i>=FULL.length){setTimeout(()=>{if(alive())tt.classList.add('sheen')},500);return}const c=FULL[i++],s=document.createElement('span');s.className='c';s.textContent=c;ty.appendChild(s);setTimeout(step,c==' '?140:65+Math.random()*50)};setTimeout(step,300)};
+LD.then(()=>setTimeout(type,1000));
+})();
 $('#fmts').innerHTML=['JPG','PNG','PDF','WEBP','TIFF','GIF','SVG','HEIC'].map((f,i)=>`<b style="--a:${i*45}deg;animation-delay:${i*.4}s">${f}</b>`).join('');
 
 const MS=['Starting converters…','Loading the PDF engine…','Warming up the photo enhancer…','Almost ready…'];
 const SG=['Image converters','PDF engine','Photo enhancer','AI help'];$('#stg').innerHTML=SG.map(s=>`<span><i></i>${s}</span>`).join('');
-tk=setInterval(()=>{const p=Math.min(1,(Date.now()-t0)/10000),n=Math.min(3,p*4|0);$('#pc').textContent=MS[n];$('#pn').textContent=Math.round(p*100)+'%';$$('#stg span').forEach((s,i)=>s.className=p>=1||i<n?'ok':i==n?'on':'')},100);
+tk=setInterval(()=>{const p=PG(),n=Math.min(3,p*4|0);RF(p);$('#pc').textContent=MS[n];$('#pn').textContent=Math.round(p*100)+'%';$$('#stg span').forEach((s,i)=>s.className=p>=1||i<n?'ok':i==n?'on':'')},100);
 const QUOTES=['Every great website starts with one small line of code.','Code is the brush and the browser is the canvas.','Build it simple, make it fast, then make it beautiful.','A website is never finished; it just keeps getting better.','Good design is invisible, and great code makes it possible.','Fix one bug today and your website is stronger tomorrow.','Behind every smooth page is someone who kept debugging.','First make it work, then make it shine.','Websites are built one commit at a time.','The best interface is the one nobody has to explain.','Every pixel you place is a promise to the visitor.','Learn a little every day and the web becomes your playground.','Great developers do not fear errors; they follow them.','A clean layout is a kindness to every visitor.','Dream in ideas, ship in code.','Speed is a feature, and a fast page is a respectful one.','Start small, stay curious, keep shipping.','Today’s rough draft is tomorrow’s finished product.','Responsive design means every screen gets the same care.','Build tools people can trust with their files.'];
 function pickQuote(){let i=Math.floor(Math.random()*QUOTES.length),l=-1;try{l=+localStorage.getItem('ocq')}catch(e){}if(i==l)i=(i+1)%QUOTES.length;try{localStorage.setItem('ocq',i)}catch(e){}return QUOTES[i]}
 /* intro sound (made with the browser's Web Audio, no files needed) */
@@ -732,7 +784,7 @@ function tryAudio(){if(sndOn||DONE)return;initAudio();if(!AC)return;try{const r=
 ['pointerdown','pointerup','touchstart','touchend','keydown','click'].forEach(ev=>addEventListener(ev,tryAudio,{passive:true}));
 tryAudio();setTimeout(()=>{const h=$('#snh');if(!sndOn&&!DONE&&h)h.classList.add('on')},700);
 function showWelcome(){clearInterval(tk);WL=true;$('#qt').textContent='“'+pickQuote()+'”';intro.classList.add('wl');if(sndOn)boom();setTimeout(endIntro,5500)}
-setTimeout(()=>{if(!DONE)showWelcome()},10000);
+LD.then(()=>setTimeout(()=>{if(!DONE)showWelcome()},10000));
 
 function steps(){const s=out.length?3:files.length?2:1,e=$('#steps');e.className='stp';e.innerHTML=['1 Add files','2 Pick options, press Start','3 Download'].map((t,i)=>`<span class="${i+1==s?'on':i+1<s?'ok':''}">${t}</span>`).join('')}
 const AIK=`You are the help assistant inside the website "OmniConvert Studio", developed by Shanmuk. Help visitors use this website only. Use very simple English, short sentences and numbered steps. Plain text only: no markdown, no asterisks, no headings. Keep answers under 120 words unless asked for more. If the question is not about this website, politely say you can only help with this website. Be honest about limits.
@@ -1082,7 +1134,7 @@ nav.addEventListener('click',e=>{
  if(vt){
   e.stopPropagation();e.preventDefault();
   try{h.classList.add('uh-vt');
-   const t=d.startViewTransition(()=>{pass(b);return new Promise(r=>requestAnimationFrame(()=>r()))});
+   const t=d.startViewTransition(()=>{pass(b)});
    const done=()=>{h.classList.remove('uh-vt');after()};
    t.finished.then(done,done)
   }catch(err){h.classList.remove('uh-vt');pass(b);after()}
